@@ -17,4 +17,4 @@ Route::get("about", "PagesController@about");
 
 Route::get("songs", "SongsController@index");
 
-Route::get("songs{id}", "SongsController@details");
+Route::get("songs/{id}", "SongsController@details");
